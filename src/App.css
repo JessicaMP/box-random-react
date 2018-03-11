@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+  font-size: 2em;
+  font-family: 'Krona One', sans-serif;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+  font-size: 2.3em;
+  font-family: 'Plaster', cursive;
+}
+
+.red {
+  background-color: red;
+  color: white;
+  font-size: 2.6em;
+  font-family: 'Pacifico', cursive;
+}
+
+.pink {
+  background-color: pink;
+  color: black;
+  font-size: 2.9em;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.aqua {
+  background-color: aqua;
+  color: black;
+  font-size: 3.2em;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.purple {
+  background-color: purple;
+  color: white;
+  font-size: 3.5em;
+  font-family: 'Shrikhand', cursive;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  font-size: 3.8em;
+  font-family: 'Courgette', cursive;
+}
+
+.white {
+  background-color: white;
+  color: black;
+  font-size: 4.1em;
+  font-family: 'Monoton', cursive;
+}
+
+.orange {
+  background-color: orangered;
+  color: white;
+  font-size: 4.4em;
+  font-family: 'VT323', monospace;
+}
+
+.green {
+  background-color: green;
+  color: black;
+  font-size: 4.7em;
+  font-family: 'Freckle Face', cursive;
+}
+
+.blue, .yellow, .red, .pink, .aqua, .green, .purple, .black, .white, .orange {
+  position: absolute;
+  min-height: 100%;
+  font-weight: bold;
+  width: 100%;
+}
+
+h1 {
+  margin: auto;
+  border: 3px solid #aaa;
+  width: 60%;
+  transform: translateY(40%);
+}
